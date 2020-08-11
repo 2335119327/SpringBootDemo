@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1 style="text-align: center">欢迎欢迎，热烈欢迎!!!</h1>
+    <hr>
+    <form style="text-align: center" method="post" th:action="@{/userlogin}">
+        账号：<input name="user" type="text"><br>
+        密码：<input name="pwd" type="password"><br>
+        记住我：<input type="checkbox" name="rember"><br>
+        <input type="submit" value="登录">
+    </form>
+</body>
+</html>
