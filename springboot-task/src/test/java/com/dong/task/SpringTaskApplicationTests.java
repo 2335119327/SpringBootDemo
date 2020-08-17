@@ -25,9 +25,9 @@ class SpringTaskApplicationTests {
         message.setText("马上过来开会");
 
         //接收者
-        message.setTo("wad2335119327@163.com");
+        message.setTo("网易云邮箱账号");
         //发送者
-        message.setFrom("2335119327@qq.com");
+        message.setFrom("qq邮箱账号");
 
         mailSender.send(message);
     }
@@ -43,9 +43,9 @@ class SpringTaskApplicationTests {
         helper.setText("<b style='color: red'>一定要准时开会</b>",true);
 
         //接收者
-        helper.setTo("wad2335119327@163.com");
+        helper.setTo("网易云邮箱账号");
         //发送者
-        helper.setFrom("2335119327@qq.com");
+        helper.setFrom("qq邮箱账号");
 
         //上传文件
         helper.addAttachment("1.png",new File("C:\\Users\\蓝色天空\\Pictures\\Saved Pictures\\1.png"));
