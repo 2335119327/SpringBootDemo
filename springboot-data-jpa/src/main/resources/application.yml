@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/jpa?serverTimezone=Asia/Shanghai&useSSL=true
+  jpa:
+    hibernate:
+      #更新或者创建数据表结构，如果启动时没表就会自动创建
+      ddl-auto: update
+    #控制台打印SQL
+    show-sql: true
